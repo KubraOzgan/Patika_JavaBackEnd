@@ -30,30 +30,6 @@ public class Threads implements Runnable{
 					oddNumbers.add(i);
 			}
 			
-			/*for(Integer i : n2)
-			{
-				if(i % 2 == 0)
-					evenNumbers.add(i);
-				else
-					oddNumbers.add(i);
-			}
-			
-			for(Integer i : n3)
-			{
-				if(i % 2 == 0)
-					evenNumbers.add(i);
-				else
-					oddNumbers.add(i);
-			}
-			
-			for(Integer i : n4)
-			{
-				if(i % 2 == 0)
-					evenNumbers.add(i);
-				else
-					oddNumbers.add(i);
-			}*/
-			
 			for(Integer i : oddNumbers)
 			{
 				System.out.println(Thread.currentThread().getName() + " Number : " + i);
